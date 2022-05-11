@@ -43,19 +43,6 @@ class _HomePageState extends State<HomePage> {
                       },
                     ),
                   ),
-                  SizedBox(
-                    height: 200,
-                    child: ListView.builder(
-                      scrollDirection: Axis.horizontal,
-                      itemCount: diodata.n,
-                      itemBuilder: (context, index) {
-                        return ProductCard(
-                            photo: snapshot.data[index].image,
-                            price: snapshot.data[index].price.toString(),
-                            title: snapshot.data[index].title);
-                      },
-                    ),
-                  ),
                 ],
               );
             },

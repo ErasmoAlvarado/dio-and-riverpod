@@ -21,6 +21,7 @@ class ProductCard extends StatelessWidget {
               child: Image.network(
                 photo,
                 height: 120,
+                width: 100,
               ),
             ),
             Row(
